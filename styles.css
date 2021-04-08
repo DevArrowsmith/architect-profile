@@ -11,6 +11,12 @@ section {
     width: 100vw;
 }
 
+#header {
+    background-image: url("assets/header.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
 #work {
     background-color: #FFFFFF;
 }
