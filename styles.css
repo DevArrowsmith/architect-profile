@@ -14,7 +14,14 @@ section {
 #header {
     background-image: url("assets/header.jpg");
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+}
+
+#header-filter {
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 2, 0.65);
 }
 
 #title {
