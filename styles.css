@@ -17,6 +17,10 @@ section {
     background-position: center; 
 }
 
+#title {
+    margin: 0;
+}
+
 #work {
     background-color: #FFFFFF;
 }
