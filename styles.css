@@ -1,3 +1,16 @@
 body {
+    padding: 0;
+    margin: 0;
     font-family: 'Commissioner', sans-serif;
+    color: white;
+    background-color: #242424;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+#work {
+    background-color: #FFFFFF;
 }
