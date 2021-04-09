@@ -135,6 +135,7 @@ section {
     height: 100%;
     width:100%;
     object-fit: cover;
+    opacity: 0.9;
 }
 
 #set-2-container {
@@ -150,6 +151,7 @@ section {
     width: 100%;
     height: calc(50% - 10px);
     object-fit: cover;
+    opacity: 0.9;
 }
 
 #set-3-4-container {
@@ -173,6 +175,7 @@ section {
     width: calc(50% - 10px);
     height: 100%;
     object-fit: cover;
+    opacity: 0.9;
 }
 
 #set-4-container {
@@ -187,6 +190,7 @@ section {
     width: calc(33% - 10px);
     height: 100%;
     object-fit: cover;
+    opacity: 0.9;
 }
 
 #set-5-container {
@@ -203,4 +207,5 @@ section {
     height: calc(33% - 13px);
     width: 100%;
     object-fit: cover;
+    opacity: 0.9;
 }
