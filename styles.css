@@ -11,8 +11,20 @@ body {
 }
 
 section {
+    position: relative;
     height: 100vh;
     width: 100vw;
+}
+
+.black-triangle {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 300px);
+    height: 0;
+    width: 0;
+    border-bottom: 150px solid black;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
 }
 
 #header {
@@ -46,6 +58,7 @@ section {
     color: inherit;
     text-decoration: none;
 }
+
 
 #work {
     background-color: #FFFFFF;
