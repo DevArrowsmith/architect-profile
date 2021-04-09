@@ -59,6 +59,26 @@ section {
     text-decoration: none;
 }
 
+#about {
+    background-color: black;
+    background-image: url(assets/abraham-fox.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom 0 left 0;
+}
+
+#about-title {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    margin: 0 0 0 -100px;
+    font-size: 2em;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
 
 #work {
     background-color: #FFFFFF;
