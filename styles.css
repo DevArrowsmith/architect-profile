@@ -1,6 +1,7 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
+
 body {
     padding: 0;
     margin: 0;
@@ -118,15 +119,15 @@ section {
 #work-container {
     position: absolute;
     bottom: 120px;
-    border: 1px solid red;
+    width: 100%;
     height: calc(85% - 200px);
     display: flex;
     flex-flow: row nowrap;
 }
 
 #set-1-container {
-    padding-left: 50px;
-    width: 25%;
+    padding-left: 70px;
+    width: calc(27.5% - 70px);
     height: 100%;
 }
 
@@ -138,7 +139,7 @@ section {
 
 #set-2-container {
     padding-left: 20px;
-    width: 12.5%;
+    width: calc(12.5% - 20px);
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -148,4 +149,58 @@ section {
 #set-2-container>img {
     width: 100%;
     height: calc(50% - 10px);
+    object-fit: cover;
+}
+
+#set-3-4-container {
+    padding-left: 20px;
+    width: calc(40% - 20px);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+#set-3-container {
+    padding-bottom: 20px;
+    width: 100%;
+    height: calc(60% - 10px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between
+}
+
+#set-3-container>img {
+    width: calc(50% - 10px);
+    height: 100%;
+    object-fit: cover;
+}
+
+#set-4-container {
+    width: 100%;
+    height: calc(40% - 10px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between
+}
+
+#set-4-container>img {
+    width: calc(33% - 10px);
+    height: 100%;
+    object-fit: cover;
+}
+
+#set-5-container {
+    padding-left: 20px;
+    padding-right: 70px;
+    width: calc(20% - 20px - 70px);
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+#set-5-container>img {
+    height: calc(33% - 13px);
+    width: 100%;
+    object-fit: cover;
 }
