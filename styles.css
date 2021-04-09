@@ -80,6 +80,25 @@ section {
     -o-transform: rotate(-90deg);
 }
 
+#about-text-container {
+    position: absolute;
+    margin: 0 50px 0 0;
+    top: 10%;
+    left: 50%;
+    font-size: 1.5em;
+}
+
+
+.about-text-narrow {
+    margin-left: 20%;
+}
+
+#about-text-break {
+    margin-top: 3em;
+}
+
+
+
 #work {
     background-color: #FFFFFF;
 }
