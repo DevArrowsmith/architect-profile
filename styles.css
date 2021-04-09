@@ -19,7 +19,7 @@ section {
 .black-triangle {
     position: absolute;
     bottom: 0;
-    left: calc(50% - 300px);
+    left: calc(50.2% - 300px);
     height: 0;
     width: 0;
     border-bottom: 150px solid black;
