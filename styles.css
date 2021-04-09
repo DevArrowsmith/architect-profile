@@ -16,15 +16,22 @@ section {
     width: 100vw;
 }
 
-.black-triangle {
+.triangle {
     position: absolute;
     bottom: 0;
     left: calc(50.2% - 300px);
     height: 0;
     width: 0;
-    border-bottom: 150px solid black;
     border-left: 300px solid transparent;
-    border-right: 300px solid transparent;
+    border-right: 300px solid transparent; 
+}
+
+.black-triangle {
+    border-bottom: 150px solid black;
+}
+
+.white-triangle {
+    border-bottom: 150px solid white;
 }
 
 #header {
