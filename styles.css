@@ -19,19 +19,23 @@ section {
 .triangle {
     position: absolute;
     bottom: 0;
-    left: calc(50.2% - 300px);
+    left: calc(50.2% - 220px);
     height: 0;
     width: 0;
-    border-left: 300px solid transparent;
-    border-right: 300px solid transparent; 
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent; 
 }
 
 .black-triangle {
-    border-bottom: 150px solid black;
+    border-bottom: 80px solid black;
 }
 
 .white-triangle {
-    border-bottom: 150px solid white;
+    border-bottom: 80px solid white;
+}
+
+.grey-triangle {
+    border-bottom: 80px solid #242424;
 }
 
 #header {
@@ -111,14 +115,14 @@ section {
 #work-title {
     width: 100%;
     margin: 0;
-    padding: 80px 0 80px 0;
+    padding: 70px 0 0 0;
     font-size: 3em;
     text-align: center;
 }
 
 #work-container {
     position: absolute;
-    bottom: 120px;
+    bottom: 150px;
     width: 100%;
     height: calc(85% - 200px);
     display: flex;
