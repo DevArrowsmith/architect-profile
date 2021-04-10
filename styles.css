@@ -282,6 +282,7 @@ section {
     background-color: #2D3236;
     border: none;
     border-bottom: 1px solid white;
+    resize: none;
 }
 
 #contact-form-submit {
