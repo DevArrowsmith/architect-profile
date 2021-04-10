@@ -249,9 +249,9 @@ section {
 }
 
 #contact-form {
-    height: 100%;
-    width: 50%;
-    padding: 0 10% 0 5%;
+    height: calc(100% - 50px);
+    width: calc(50% - 10%);
+    padding: 50px 10% 0 0;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -262,9 +262,8 @@ section {
 }
 
 #first-name, #email {
-    
     height: 3em;
-    width: 90%;
+    width: calc(100% - 40px);
     margin: 20px 0 30px 0;
     padding: 0 20px 0 20px;
     color: white;
@@ -276,7 +275,7 @@ section {
 
 #message {
     height: 6em;
-    width: 90%;
+    width: calc(100% - 40px);
     margin: 20px 0 30px 0;
     padding: 20px;
     color: white;
@@ -294,7 +293,7 @@ section {
 }
 
 #social-media-links {
-    height: 15%;
+    height: calc(18% - 40px);
     width: 20%;
     min-width: 300px;
     margin-top: 5%;
