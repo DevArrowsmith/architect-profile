@@ -230,7 +230,7 @@ section {
 
 #contact-text {
     height: 100%;
-    width: 50%;
+    width: 35%;
     padding: 0 10% 0 5%;
     display: flex;
     flex-flow: column nowrap;
@@ -307,8 +307,6 @@ section {
 }
 
 #social-media-links>a {
-    padding: 0;
-    margin: 0;
     text-decoration: none;
 }
 
