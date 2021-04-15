@@ -33,6 +33,10 @@ header nav a {
     margin: 2rem;
 }
 
+header nav a:last-of-type {
+    margin-right: 3rem;
+}
+
 h1 {
     position: absolute;
     top: calc(50% - 10rem);
