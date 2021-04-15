@@ -52,3 +52,36 @@ h1 {
 img {
     height: 100px;
 }
+
+#work-container {
+    display: grid;
+    grid-template-columns: 20rem 10rem 25rem 5rem;
+    grid-template-rows: repeat(5, 10rem);
+    grid-template-areas: 
+        "set-1 set-2 set-3 set-5"
+        "set-1 set-2 set-3 set-5"
+        "set-1 set-2 set-3 set-5"
+        "set-1 set-2 set-4 set-5"
+        "set-1 set-2 set-4 set-5";
+    grid-gap: 1rem;
+}
+
+#set-1 {
+    grid-area: set-1
+}
+
+#set-2 {
+    grid-area: set-2
+}
+
+#set-3 {
+    grid-area: set-3
+}
+
+#set-4 {
+    grid-area: set-4
+}
+
+#set-5 {
+    grid-area: set-5
+}
