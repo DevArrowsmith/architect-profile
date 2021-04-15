@@ -15,7 +15,12 @@ header {
 
 h1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
+    color: white;
+    font-size: 10rem;
+    left: 10rem;
+    width: 5rem;
+    text-transform: uppercase;
 }
 
 img {
