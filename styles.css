@@ -70,18 +70,61 @@ img {
     grid-area: set-1
 }
 
+#set-1 img {
+    width: 100%;
+    height: 54rem;
+    object-fit: cover;
+
+}
+
 #set-2 {
-    grid-area: set-2
+    grid-area: set-2;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+#set-2 img {
+    width: 100%;
+    height: calc(53rem / 2);
+    object-fit: cover;
 }
 
 #set-3 {
-    grid-area: set-3
+    grid-area: set-3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+#set-3 img {
+    height: 100%;
+    width: calc(24rem / 2);
+    object-fit: cover;
 }
 
 #set-4 {
-    grid-area: set-4
+    grid-area: set-4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+#set-4 img {
+    height: 100%;
+    width: calc(23rem / 3);
+    object-fit: cover;
 }
 
 #set-5 {
-    grid-area: set-5
+    grid-area: set-5;
+    display: grid;
+    grid-gap: 1rem;
 }
+
+#set-5 img {
+    width: 100%;
+    height: calc(53rem / 2);
+    object-fit: cover;
+}
+
+
