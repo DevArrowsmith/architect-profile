@@ -8,8 +8,14 @@ header, section, footer {
 }
 
 header {
+    position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/header.jpg") center;
     background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
 }
 
 img {
