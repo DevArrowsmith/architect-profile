@@ -3,6 +3,11 @@
     padding: 0;
 
     --white: #F5F5F5;
+    --black: #000000;
+    --grey-1: #242424;
+    --grey-2: #2D3236;
+    --grey-3: #363A3E;
+
 }
 
 html {
@@ -15,7 +20,7 @@ body {
     margin: 0;
     font-family: 'Commissioner', sans-serif;
     color: var(--white);
-    background-color: #242424;
+    background-color: var(--grey-1);
 }
 
 section, header {
@@ -35,7 +40,7 @@ section, header {
 }
 
 .black-triangle {
-    border-bottom: 80px solid black;
+    border-bottom: 80px solid var(--black);
 }
 
 .white-triangle {
@@ -43,7 +48,7 @@ section, header {
 }
 
 .grey-triangle {
-    border-bottom: 80px solid #242424;
+    border-bottom: 80px solid var(--grey-1);
 }
 
 #header {
@@ -75,7 +80,7 @@ section, header {
 }
 
 #about {
-    background-color: black;
+    background-color: var(--black);
     background-image: url(assets/abraham-fox.jpg);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -112,7 +117,7 @@ section, header {
 }
 
 #work {
-    color: #242424;
+    color: var(--grey-1);
     background-color: var(--white);
 }
 
@@ -271,7 +276,7 @@ section, header {
     margin: 20px 0 30px 0;
     padding: 0 20px 0 20px;
     color: var(--white);
-    background-color: #2D3236;
+    background-color: var(--grey-2);
     border: none;
     border-bottom: 1px solid var(--white);
 }
@@ -283,7 +288,7 @@ section, header {
     margin: 20px 0 30px 0;
     padding: 20px;
     color: var(--white);
-    background-color: #2D3236;
+    background-color: var(--grey-2);
     border: none;
     border-bottom: 1px solid var(--white);
     resize: none;
@@ -294,7 +299,7 @@ section, header {
     width: 45%;
     margin: 10px 0 30px 55%;
     border: none;
-    background-color: #363A3E;
+    background-color: var(--grey-3);
 }
 
 #social-media-links {
