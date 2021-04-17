@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+
+    --white: #F5F5F5;
 }
 
 html {
@@ -9,8 +11,10 @@ html {
 
 
 body {
+    padding: 0;
+    margin: 0;
     font-family: 'Commissioner', sans-serif;
-    color: white;
+    color: var(--white);
     background-color: #242424;
 }
 
@@ -35,7 +39,7 @@ section, header {
 }
 
 .white-triangle {
-    border-bottom: 80px solid white;
+    border-bottom: 80px solid var(--white);
 }
 
 .grey-triangle {
@@ -109,7 +113,7 @@ section, header {
 
 #work {
     color: #242424;
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
 #work-title {
@@ -266,10 +270,10 @@ section, header {
     width: calc(100% - 40px);
     margin: 20px 0 30px 0;
     padding: 0 20px 0 20px;
-    color: white;
+    color: var(--white);
     background-color: #2D3236;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--white);
 }
 
 
@@ -278,10 +282,10 @@ section, header {
     width: calc(100% - 40px);
     margin: 20px 0 30px 0;
     padding: 20px;
-    color: white;
+    color: var(--white);
     background-color: #2D3236;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--white);
     resize: none;
 }
 
@@ -299,7 +303,7 @@ section, header {
     min-width: 300px;
     margin-top: 5%;
     padding-top: 40px;
-    border-top: 1px solid white;
+    border-top: 1px solid var(--white);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -314,5 +318,5 @@ section, header {
 #social-media-links>a>img{
     height: 60px;
     width: 60px;
-    fill: white;
+    fill: var(--white);
 }
