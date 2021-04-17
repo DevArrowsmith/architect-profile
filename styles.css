@@ -1,12 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-
+:root {
     --white: #F5F5F5;
     --black: #000000;
     --grey-1: #242424;
     --grey-2: #2D3236;
     --grey-3: #363A3E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -206,7 +208,7 @@ nav a {
 }
 
 #set-5-container {
-    padding-left: 20px;
+    padding-left: 20px;#contact-form 
     padding-right: 70px;
     width: calc(20% - 20px - 70px);
     height: 100%;
