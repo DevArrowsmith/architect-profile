@@ -17,7 +17,6 @@ html {
 
 
 body {
-    width: 100vw;
     padding: 0;
     margin: 0;
     font-family: 'Commissioner', sans-serif;
@@ -28,7 +27,6 @@ body {
 section, header, footer {
     position: relative;
     height: 100vh;
-    width: 100vw;
 }
 
 .triangle {
@@ -124,7 +122,6 @@ section, header, footer {
 }
 
 #work-title {
-    width: 100%;
     margin: 0;
     padding: 70px 0 0 0;
     font-size: 3em;
