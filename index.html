@@ -101,6 +101,16 @@
         </div>
     </footer>
 
+    <script>
+        let button = document.getElementById("contact-form-submit");
+        button.addEventListener('click', function(event) {
+            event.preventDefault();
+            let name = document.getElementById("first-name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+            alert(`Hello! My name is ${name}. My email is ${email}. My message is "${message}".`)
+        })
+    </script>
 
 </body>
 </html>
